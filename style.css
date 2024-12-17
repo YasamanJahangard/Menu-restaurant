@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-family: 'Caprasimo', cursive;
+    font-size: 2rem;
+
+}
+
+
+.Restaurant{
+    margin: 0.5rem;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: burlywood;
+    background-image: url('../image/order.jpg');
+    background-size: cover;
+    color: black;
+}
+li a,a:visited{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    border: 6px solid rgba(0, 0, 0, 0.642);
+    background-color: rgba(255, 127, 80, 0.616);
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 450px;
+    font-size: 2rem;
+    line-height: 5rem;
+    
+}
+h2{
+    padding: 1rem;
+    color: white;
+    background:rgba(29, 28, 28, 0.642);
+    border-radius: 2rem 2rem 0 0;
+
+  
+}
+li{
+    border-top: 1px solid #333;
+}
+li a{
+    display: block;
+}
+li a:focus,a:hover{
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+
+
+.dropbtn {
+    background-color: rgb(238, 193, 171);
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.about{
+    position: absolute;
+    border: 4px solid #433830;
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(118, 82, 37, 0.537);
+    border-radius: 8px;
+    margin-left: 20rem;
+    
+}
+.body{
+    background-color: rgb(189, 161, 127);
+}
